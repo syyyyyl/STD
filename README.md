@@ -8,6 +8,7 @@ Pandas >= 1.0.3
 Pytorch >= 1.4.0
 
 ### Arguments
+```
 model: backbone architecture (default=0, 0 for wavenet /1 for tcn /2 for transformer).  
 n_his: number of input steps.
 hidden_channels: number of hidden channels.  
@@ -25,6 +26,7 @@ attention: whether to add attention mechanism to the model.
 n_slots: number of slots.
 filename: dataset name.
 real_data: whether the data is real data or simulated data.
+```
 
 ## Model Training and Evaluating For WaveNet with STD
 ```
