@@ -9,20 +9,20 @@ Pytorch >= 1.4.0
 
 ### Arguments
 model: backbone architecture (default=0, 0 for wavenet /1 for tcn /2 for transformer).  
-n_his: number of input steps
+n_his: number of input steps.
 hidden_channels: number of hidden channels.  
 n_his: number of input steps.  
 n_layers: number of hidden layers.
-st1: whether to use ST(A)D
-st2: whether to use ST-Norm
-STNorm_n: number of STD
-TSNorm_n: number of TSD
-n_train: number of training batch size
-n_val: number of validating batch size
-n_test: number of testing batch size
+st1: whether to use ST(A)D.
+st2: whether to use ST-Norm.
+STNorm_n: number of STD.
+TSNorm_n: number of TSD.
+n_train: number of training batch size.
+n_val: number of validating batch size.
+n_test: number of testing batch size.
 n: number of locations.
-attention: whether to add attention mechanism to the model
-n_slots: number of slots
+attention: whether to add attention mechanism to the model.
+n_slots: number of slots.
 filename: dataset name.
 real_data: whether the data is real data or simulated data.
 
