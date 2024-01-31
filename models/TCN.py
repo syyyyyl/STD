@@ -1,9 +1,3 @@
-# uncompyle6 version 3.9.0
-# Python bytecode version base 3.8.0 (3413)
-# Decompiled from: Python 3.7.13 (default, Mar 28 2022, 08:03:21) [MSC v.1916 64 bit (AMD64)]
-# Embedded file name: /data/jindeng/spatio-temporal forecasting/ST-Norm/models/TCN.py
-# Compiled at: 2021-08-18 11:42:09
-# Size of source mod 2**32: 6281 bytes
 import torch
 import torch.nn as nn
 from torch.nn.utils import weight_norm
